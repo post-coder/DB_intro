@@ -1,0 +1,12 @@
+ID - SMALLINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+title - VARCHAR(255) - NOT_NULL
+author - VARCHAR(255) - NOT_NULL
+ISBN - VARCHAR(17) - UNIQUE, NOT_NULL
+category - VARCHAR(150) - "categoria1, categoria2," - NULL
+publisher - VARCHAR(100) - NOT_NULL
+n_volumes - TINYINT - NULL, DEFAULT(1)
+edition - VARCHAR(150) - NULL
+pages_number - SMALLINT - NULL
+publishing_date - DATE - NOT_NULL
+description - TEXT - NULL
+price - FLOAT(5,2) - NOT_NULL
